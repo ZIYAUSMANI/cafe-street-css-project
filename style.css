@@ -943,6 +943,11 @@
 
         }
 
+
+        .bottom-section h2 {
+            margin-bottom: 60px;
+        }
+
     }
 
     @media (max-width:768px) {
@@ -967,7 +972,7 @@
 
 
         .bottom-section h2 {
-            margin-bottom: 20px;
+            margin-bottom: 60px;
         }
 
 
@@ -996,7 +1001,7 @@
         }
     }
 
-    @media (max-width:576px) {
+    @media (max-width:588px) {
 
         .circle {
             display: none;
@@ -1086,7 +1091,7 @@
 
     /* aboutus section */
 
-    .Aboutus {
+    .aboutus {
         background-image: url(./assets/image/aboutus_backround_image.webp);
         height: auto;
         background-position: center;
@@ -1095,13 +1100,13 @@
 
     }
 
-    .Aboutus-box {
+    .aboutus-box {
         display: flex;
         gap: 5em;
         flex-direction: row;
     }
 
-    .Aboutus-box img {
+    .aboutus-box img {
         height: 300px;
         width: 200px;
         border-radius: 12px;
@@ -1113,23 +1118,23 @@
 
     }
 
-    .Aboutus-box .right-content {
+    .aboutus-box .right-content {
         height: 316.12px;
         width: 478px;
         margin-top: 20px;
     }
 
-    .Aboutus-box .right-content h2 {
+    .aboutus-box .right-content h2 {
         margin-bottom: 23px;
     }
 
-    .Aboutus-box .right-content h3 {
+    .aboutus-box .right-content h3 {
         margin-bottom: 15px;
         width: 348px;
 
     }
 
-    .Aboutus-box .right-content p {
+    .aboutus-box .right-content p {
         margin-bottom: 31px;
         font-size: 16px;
         width: 300px;
@@ -1138,39 +1143,47 @@
     }
 
     @media (min-width:992px) {
-        .Aboutus-box {
+        .aboutus-box {
             flex-direction: row;
             justify-content: space-around;
         }
 
-        .Aboutus {
+        .aboutus {
             height: 484px;
         }
 
-        .Aboutus-box img {
+        .aboutus-box img {
             height: 509.21px;
             width: 370.21px;
         }
 
-        .Aboutus-box .right-content p {
+        .aboutus-box .right-content p {
 
             width: auto;
         }
 
-        .Aboutus-box .right-content {
+        .aboutus-box .right-content {
             margin-top: 48px;
         }
     }
 
     @media (max-width:662px) {
-        .Aboutus-box {
+        .aboutus-box {
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
 
-        .Aboutus-box .right-content {
-            width: 100%;
+        .aboutus-box .right-content {
+            width: auto;
+        }
+
+        .aboutus-box .right-content p {
+            width: auto;
+        }
+
+        .aboutus-box .right-content h3 {
+            width: auto;
         }
 
 
